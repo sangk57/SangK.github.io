@@ -54,8 +54,9 @@
           </div>
           <div class="widget">
             <div class="widget-title"><i class="fa fa-star-o"> 标签</i></div>
-            <div class="tagcloud"><a href="/tags/前端/" style="font-size: 15px;">前端</a> <a href="/tags/JavaScript/"
-                style="font-size: 15px;">JavaScript</a> <a href="/tags/心情/" style="font-size: 15px;">心情</a></div>
+            <div class="tagcloud"><a href="/tags/心情/" style="font-size: 15px;">心情</a> <a href="/tags/前端/"
+                style="font-size: 15px;">前端</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a>
+            </div>
           </div>
           <div class="widget">
             <div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div>
@@ -87,12 +88,14 @@
               <p><img src="https://pic-1257007754.cos.ap-chengdu.myqcloud.com/yu/yu1.jpg" style="height: 2rem;"></p>
             </div>
             <script type="text/javascript" src="/js/share.js?v=0.0.0" async></script><a class="article-share-link"
-              data-url="https://sangk57.github.io/2021/03/23/雨/" data-id="ckmlcibl10006fsnae7rkokyr"
-              data-qrcode="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABxUlEQVR42u3aQY7DIBAEQP//01lpT5F2cXoYIIlUnCKsmOIyGjdcVzwev2M08/fp8/zz+Dt/7Ri4uLht7uN2jHCjJfP5+3cOt4SLi3uQe1+8HlMj32piwMXF/UxuXpiqjREuLu73cqsFK2l6cHFxP5mbUDrNSlIEF3+r4eLiNrjVwHTH7435Li4ubpHbiTnyCHVV1IKLi3uGm8cZ9wtUP6WSD6ThtnFxcQ9ykxKz9vpF3sng4uKe5M5dnsiPUavXL16UPFxc3CPc+wWqzcdcDFotoLi4uLu51WhjVTnL+69/UhxcXNwj3KS9mDte7YSn11xNxcXFbXPzZfID0bkgtXD4iouLe5CbNy5zUUj1wtZwA7i4uJu5/XCzz03mcXFx38XdcQRSrakv6Li4uEe4c5ck+sFo58IWLi7ubm710lUejlTRSTiLi4t7kpuUp2og0t8qLi7ue7n5mDvXyJ8W7Li4uNu4nWalGmrkjdSCIoiLi9vmJsVr7nJnEruUj2FwcXEPclctmSDmwhRcXNzP5M4dqxQoSbSKi4v7JdxqtJqUxeG6uLi4B7nVF0WHH1P/XRaL4OLiNridwHTuk6lKxMXFPcj9AdSHTdSoxsUgAAAAAElFTkSuQmCC">分享</a>
+              data-url="https://sangk57.github.io/2021/03/23/雨/" data-id="ckmlehgyy0005zwnanxyrnnxt"
+              data-qrcode="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABuklEQVR42u3awa6CMBAFUP7/p3lbTZ54p9MWSU5XRms5sJi0dziOeJwv4/Wb65nJnGPFwMXFbXPPy5HMSS7cWR8XF/cu7qcL5HPyclYti7i4uM/iJr/mhQwXF/fp3M7hp1UocXFxN3KrhSbfuHxaZ/lZDRcXt8HNU8p1n5fku7i4uEPcszjyUGNWCPv2L1xc3C3cTqjRb6xWr4uLi7uH23lVotos6exkJrzZgYuLW+SONT6voWNBarQjw8XFvYnbOQjNCkP/eXC4uLgbuXmJyZfOVytslXBxcbdw81Zo3nAdK1WFzRAuLu5GbvUGkhsb65CW811cXNyp3LxR2nkLotqs/fiwcHFxf4abH4Gqx6TBsxouLu5ibn6Yqf6ab1/y10NxcXH3czthRx6zdtowuLi4+7l5VFrFFY43SUSLi4u7kZs3R3PE2PiyAi4u7mLuWNBZbZFOu0lcXNwt3GpxmRuhfok/gk0VLi7uOm5edMaaH/0NEy4u7l3csULTCUNbZzVcXNyf5CalpxO14OLiPp07OcG9no+Li7uRm4eb+Q0kh6jkAeHi4u7njpWe6lYmWW1yvouLizvC/QMo1QsJuii6WgAAAABJRU5ErkJggg==">分享</a>
             <div class="tags"><a href="/tags/心情/">心情</a></div>
             <div class="post-nav"><a class="next" href="/2019/03/31/JS仿《阿丽塔》中依德医生的旋转缩放控件/">JS仿《阿丽塔》中依德医生的旋转缩放控件 —
                 DEMO篇</a></div>
             <div id="vcomment"></div>
+            <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+            <script type="text/javascript" src="/js/Valine.min.js"></script>
             <script>
               function getDuration(second) {
                 var days = Math.floor(second / 86400);
@@ -106,10 +109,7 @@
               setInterval(function() {
                 document.getElementById('together').innerText = getDuration((Date.now() - togetherDay) / 1000)
               }, 1000)
-
             </script>
-            <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-            <script type="text/javascript" src="/js/Valine.min.js"></script>
             <script>var notify = 'false' == true ? true : false;
               var verify = 'false' == true ? true : false;
               var GUEST_INFO = ['nick', 'mail', 'link'];
